@@ -1,0 +1,20 @@
+body{
+    background-color: #e2e071;
+}
+
+.prac-card{
+    cursor: pointer;
+}
+
+.prac-card:hover{
+    transform: scale(1.15);
+    background-color: blue;
+    transition: all .3s;
+}
+
+.prac-card:not(:hover){
+    transform: scale(1);
+    background-color: #fff;
+    transition: all .3s;
+}
+
